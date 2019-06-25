@@ -10,3 +10,8 @@ User.create(username: "Magnus Nielsen", password:"password")
 User.create(username: "Joanas Kahnwald", password:"password")
 User.create(username: "Charlotte Doppler", password:"password")
 User.create(username: "Martha Nielsen", password:"password")
+
+Message.create(body: "Hi, how are you?", user: User.last)
+Message.create(body: "What do you want to do?", user: User.last)
+Message.create(body: "I am trying to learn coding in RoR", user: User.last)
+Message.create(body: "After that, learn python", user: User.last)
